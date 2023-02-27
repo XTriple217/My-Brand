@@ -49,38 +49,39 @@
 
           <div class="manage-body2">
             <div class="management-title"><h3>New Article</h3></div>
+            <div class="post-message"></div>
             <div class="manage-page-form1">
-                <form action="" action="">
+                <form method="POST">
                     <div class="section-A">
                     <div class="page-name">
                         <label for="">Article Title</label><br>
-                        <input type="text" placeholder="Article's Title">
+                        <input type="text" name="title" required placeholder="Article's Title">
                         <span> <i class="fa-solid fa-user-pen"></i></span>
                     </div>
                     <div class="page-title2"><br>
                         <label for="">Author</label><br>
-                        <input type="text" name="" id="" value="N.Aimable" readonly>
+                        <input type="text" name="author" required value="N.Aimable" readonly>
                         <span><i class="fa-sharp fa-solid fa-user-tie"></i></span>
                     </div>
                     <div class="page-color">
                         <label for="">Published Date</label><br>
-                        <input type="Date">
+                        <input name="date" type="Date" required>
                     </div>
                     </div>
                     <div class="section-B">
                             <div class="page-name">
                                 <label for="">Article Image</label><br>
-                                <input type="text" placeholder="Article's Title">
+                                <input type="text" name="image" required placeholder="Article's Title">
                                 <span><i class="fa-sharp fa-solid fa-arrow-up-from-bracket"></i></span>
                             </div>
                             <div class="page-title2"><br>
                                 <label for="">Description</label><br>
-                                <input type="text" name="" id="" placeholder="Article Description...">
+                                <input type="text" name="description" required placeholder="Article Description...">
                                 <span><i class="fa-solid fa-pen"></i></span>
                             </div>
                             <div class="page-color">
                                 <label for="">Article</label><br>
-                                <textarea name="" id="" cols="40" rows="5" placeholder="Written Script..."></textarea>
+                                <textarea name="article" required cols="40" rows="5" placeholder="Written Script..."></textarea>
                             </div>
                             </div>
                     <div class="submit-manage">
@@ -99,5 +100,6 @@
            
    </body>
    <script src="js/main.js"></script>
+   <script src="js/article.js"></script>
    <script src="https://kit.fontawesome.com/0c3ec67746.js" crossorigin="anonymous"></script>          
 </html>

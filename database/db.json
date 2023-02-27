@@ -1,0 +1,101 @@
+{
+  "Admin_users": [
+    {
+      "id": 1,
+      "username": "Admin",
+      "password": "Admin123"
+    }
+  ],
+  "Subscribed_users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "user123"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "sdjkfhuhus",
+      "author": "sjhcjsd",
+      "date": "sajsad",
+      "image": "sdjhjhjksd",
+      "description": "nsjadhjhjas",
+      "article": "ajassljck"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "title": "sdjkfhuhus",
+      "author": "sjhcjsd",
+      "date": "sajsad",
+      "image": "sdjhjhjksd",
+      "description": "nsjadhjhjas",
+      "article": "ajassljck"
+    },
+    {
+      "fullnames": "Nkurikiyimana Aimable",
+      "email": "nkurikiyimanaaimable217@gmail.com",
+      "message": "This is the first contact person.",
+      "status": "unseen",
+      "id": 2
+    },
+    {
+      "fullnames": "Gatabazi Jean",
+      "email": "gatabazijean@gmail.com",
+      "message": "hello Developer can you contact me for a job offer?",
+      "status": "unseen",
+      "id": 3
+    },
+    {
+      "fullnames": "Gatabazi Jean",
+      "email": "gatabazijean@gmail.com",
+      "message": "hello Developer can you contact me for a job offer?",
+      "status": "unseen",
+      "id": 4
+    },
+    {
+      "fullnames": "Gatabazi Jean",
+      "email": "gatabazijean@gmail.com",
+      "message": "hello Developer can you contact me for a job offer?",
+      "status": "unseen",
+      "id": 5
+    },
+    {
+      "fullnames": "Gatabazi Jean",
+      "email": "gatabazijean@gmail.com",
+      "message": "hello Developer can you contact me for a job offer?",
+      "status": "unseen",
+      "id": 6
+    },
+    {
+      "fullnames": "Gatabazi Jean",
+      "email": "gatabazijean@gmail.com",
+      "message": "hello Developer can you contact me for a job offer?",
+      "status": "unseen",
+      "id": 7
+    },
+    {
+      "fullnames": "hhh",
+      "email": "shjh@cjd.com",
+      "message": "asdjhjw",
+      "status": "unseen",
+      "id": 8
+    },
+    {
+      "fullnames": "Hello World",
+      "email": "world@gmail.com",
+      "message": "Hello Aimable",
+      "status": "unseen",
+      "id": 9
+    },
+    {
+      "fullnames": "hdjjhjhj",
+      "email": "djure@cdh.com",
+      "message": "jdujuef",
+      "status": "unseen",
+      "id": 10
+    }
+  ]
+}
