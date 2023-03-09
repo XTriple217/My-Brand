@@ -1,9 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
 body{
   width: 100%;
   height: auto;
 }
+html{
+  width:99%
+}
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
 .snip1135 {
   font-family: "Raleway", Arial, sans-serif;
   text-align: center;
@@ -67,8 +70,6 @@ body{
 
 .container{
   width: 99%;
-  position: absolute;
-  background-color: #000000;
 }
 /* Header Section*/
 /* logo section */
@@ -240,13 +241,6 @@ body{
   left: 599px;
   top: 1042px;
 }
-/* .content3-box{
-  position: absolute;
-width: 352px;
-height: 172px;
-left: 140px;
-top: 190px;
-} */
 .content1 {
   position: absolute;
   left: 0%;
@@ -484,12 +478,20 @@ top: 816px;
   background: #070022;
 }
 .footer1 {
-  position: absolute;
   width: 100%;
   height: 210px;
-  left: 0px;
-  top: 1650px;
   background: #070022;
+}
+.footer1-contact{
+  height: 210px;
+  position: relative;
+  top: 1351px;
+  background: #070022;
+}
+.footer1-contact .icons{
+  float: right;
+  margin-right: 40px;
+  margin-top: 70px;
 }
 .footer2 {
   position: absolute;
@@ -541,16 +543,18 @@ top: 816px;
   cursor: pointer;
   list-style: none;
 }
+.nav-bottom-blog{
+  margin-top: 100px;
+}
 .nav-bottom1 ul {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
   gap: 56px;
-
   position: absolute;
   left: 164px;
-  top: 1551px;
+  top: 1251px;
   cursor: pointer;
   list-style: none;
 }
@@ -759,17 +763,25 @@ top: 816px;
   height: 28px;
   left: 1115px;
   top: 890px;
-
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
   line-height: 28px;
-  /* identical to box height */
-
   text-align: center;
   text-transform: lowercase;
-
+  color: #000000;
+}
+.recent-header-blog {
+  width: 107px;
+  height: 28px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: lowercase;
   color: #000000;
 }
 .recent-1 {
@@ -810,6 +822,54 @@ top: 816px;
   background: url(../img/coding-languages-image.webp);
   border-radius: 4px;
   background-size: cover;
+}
+.recently-photo{
+  margin-top: 10px;
+  margin-left: 7px;
+  margin-right: 10px;
+  width: 63px;
+  height: 63px;
+  float: left;
+  background: url(../img/coding-languages-image.webp);
+  border-radius: 4px;
+  background-size: cover;
+}
+.line-side-latest{
+  margin-left: 70px;
+  width: 120px;
+  height: 3px;
+  background-color: orangered;
+}
+.latest-blog-title{
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #000000;
+}
+.sub-blog-title{
+  margin-bottom: 15px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.sub-side-article{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #7d7d7d;
+}
+.blah{
+  margin-top: 30px;
 }
 .recent-photo-2 {
   position: absolute;
@@ -884,12 +944,24 @@ top: 816px;
   position: relative;
   top: 170px;
 }
+.author-blog {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
 .info {
   width: 30%;
   color: white;
   position: absolute;
   top: 120px;
   left: 50px;
+}
+.info-blog {
+  margin-left: 40px;
+  width: 30%;
+  color: white;
 }
 .email {
   margin-bottom: 10px;
@@ -900,6 +972,17 @@ top: 816px;
   right: 36.04%;
   top: 4.29%;
   bottom: 44.76%;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 180%;
+  text-align: center;
+  letter-spacing: 0.335em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.brand-blog {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
@@ -929,6 +1012,23 @@ top: 816px;
   text-transform: capitalize;
 
   color: #ffffff;
+}
+.brand-motive-blog {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.335em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.icons-blog{
+  float: right;
+  margin-right: 20px;
+  position: relative;
+  top: -50px;
 }
 .footer .icons {
   position: relative;
@@ -1600,75 +1700,44 @@ top: 816px;
   padding: 0;
 }
 .trending {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  margin-top: 60px;
   padding: 0px;
   gap: 3px;
-
-  position: absolute;
-  width: 71px;
-  height: 25px;
-  left: 140px;
-  top: 266px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height */
-
   text-transform: capitalize;
-
-  color: #000000;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+}
+.line-ups{
+  width: 60px;
+  height: 4px;
+  background-color: orangered;
 }
 .trending-photo {
-  position: absolute;
   width: 392px;
   height: 204px;
-  left: 140px;
-  top: 326px;
-
   background: url(../img/Programming-Language-Projects.jpg);
   border-radius: 4px;
   background-size: cover;
 }
-.trend-contents {
-  position: absolute;
-  width: 392px;
-  height: 167px;
-  left: 140px;
-  top: 552px;
-}
 .trend-para {
-  position: absolute;
-  left: 0%;
-  right: 2.3%;
-  top: 27.54%;
-  bottom: 25.15%;
-
+  width: 100%;
+  margin-left: 10px;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   text-transform: capitalize;
-
   color: #2f2f2f;
 }
 .trend-title {
-  position: absolute;
-  left: 23.47%;
-  right: 25.77%;
-  top: 0%;
-  bottom: 85.63%;
-
+  color: #2678F3;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -1677,64 +1746,46 @@ top: 816px;
   /* identical to box height */
 
   text-transform: capitalize;
-
-  color: #000000;
 }
 .trend-date {
-  position: absolute;
-  left: 0%;
-  right: 72.19%;
-  top: 88.02%;
-  bottom: 4.19%;
-
+  
+  margin-top: 40px;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 13px;
   text-transform: capitalize;
-
-  color: #616161;
+  color: #ff7700;
 }
 .trend-author {
-  position: absolute;
-  left: 86.99%;
-  right: 0%;
-  top: 88.62%;
-  bottom: 0%;
-
+  text-align: right;
+  margin-right: 30px;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 15px;
   text-transform: capitalize;
-
-  color: #000000;
 }
 .trend-icons {
-  position: absolute;
-  width: 150px;
-  height: 43px;
-  left: 137px;
-  top: 729px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
 }
-.trend-icons span,
-i {
+.cons{
+  cursor: pointer;
+}
+
+.trend-icons span{
   cursor: pointer;
   color: #000000;
-  margin-top: 20px;
-  margin-right: 10px;
+  margin-right: 30px;
+  margin-left: 10px;
 }
 .like {
-  cursor: pointer;
   margin-top: 10px;
-
-  position: absolute;
-  left: 0%;
-  right: 90%;
-  top: 72.09%;
-  bottom: 0%;
 
   font-family: "Poppins";
   font-style: normal;
@@ -1750,14 +1801,7 @@ i {
   opacity: 0.75;
 }
 .dislike {
-  cursor: pointer;
   margin-top: 10px;
-  position: absolute;
-  left: 26%;
-  right: 47.33%;
-  top: 72.09%;
-  bottom: 0%;
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -1772,14 +1816,7 @@ i {
   opacity: 0.75;
 }
 .comment {
-  cursor: pointer;
   margin-top: 10px;
-  position: absolute;
-  left: 52%;
-  right: 0%;
-  top: 72.09%;
-  bottom: 0%;
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -1794,12 +1831,6 @@ i {
   opacity: 0.75;
 }
 .trend1-photo {
-  position: absolute;
-  width: 447px;
-  height: 204px;
-  left: 579px;
-  top: 326px;
-
   background: url(../img/Programming-Language-Projects.jpg);
   border-radius: 4px;
   background-size: cover;
@@ -1834,11 +1865,8 @@ i {
   top: 729px;
 }
 .recent2 {
-  position: absolute;
   width: 262px;
   height: 506px;
-  left: 1038px;
-  top: 317px;
 
   background: #f4f2f2;
   border-radius: 8px;
@@ -2354,11 +2382,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 .line-1{
   position: absolute;
   width: 30%;
+  height: 3px;
   top: 653px;
   left: 800px;
   bottom: 0%;
-  border: 3px solid #FF5C00;
-  transform: rotate(180deg);
+  background-color: orangered;
 }
 .signup a{
   text-decoration: none;
@@ -2664,4 +2692,68 @@ top: 2px;
   left: 130px;
   color: rgb(0, 0, 0);
   cursor: pointer;
+}
+.section{
+  width: 100%;
+}
+.trend-post{
+  margin-top: 300px;
+  width: 90%;
+}
+.articles{
+  margin-top: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+.articles-posts{
+  margin-left: 140px;
+}
+.side-by-side{
+  display: grid;
+  float: right;
+}
+.posts{
+  width: 262px;
+  background-color: #F4F2F2;
+  border-radius: 8px;
+}
+.posts a, .posts-2 a{
+  text-decoration: none;
+  color: orangered;
+}
+.posts a:hover, .posts-2 a:hover{
+  text-decoration: underline;
+  color: rgb(0, 208, 255);
+}
+.posts-2{
+  margin-top: 30px;
+  width: 262px;
+  background: #F4F2F2;
+  border-radius: 8px;
+}
+.trend-para a{
+  text-decoration: none;
+  color: orangered;
+}
+.trend-para a:hover{
+  text-decoration: underline;
+  color: rgb(0, 200, 255);
+}
+.blog{
+  width: 70%;
+  display: inline-block;
+}
+.posted-info{
+  display: inline-block;
+  width: 100%;
+}
+.articles-body{
+  width: 392px;
+  height: 204px;
+}
+.log-message{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  color: red;
 }

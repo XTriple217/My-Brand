@@ -1,0 +1,157 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "Admin",
+      "password": "Admin",
+      "email": "admin@gmail.com",
+      "status": false
+    }
+  ],
+  "subscribers": [
+    {
+      "Email": "nkurikiyimanaaimable217@gmail.com",
+      "Password": "Aimable22",
+      "Status": "Off",
+      "id": 1
+    },
+    {
+      "Email": "michealraymond217@gmail.com",
+      "Password": "Aimable22",
+      "Status": "Off",
+      "id": 2
+    }
+  ],
+  "Articles": [
+    {
+      "title": "Today's Technology",
+      "author": "N.Aimable",
+      "date": "2023-03-02",
+      "image": "none",
+      "description": "It's all about Tech Today",
+      "article": "Ut neque taciti pellentesque luctus sed viverra erat ante nascetur. In ullamcorper venenatis vehicula risus felis etiam nascetur. Fames. Pretium pellentesque sem vivamus eget curae; condimentum eleifend ipsum consectetuer aliquet. Ultrices erat senectus per habitasse sed varius pulvinar venenatis. Lacinia.\n\nMontes pretium tincidunt hymenaeos fermentum lorem nec suspendisse. Ad nibh in viverra est nec dictum fermentum, montes vitae curae;. Leo dis. Tempus vestibulum.\n\nLacus facilisi orci magna primis platea, rhoncus. Turpis cras morbi. Interdum feugiat. Libero ridiculus blandit dapibus rhoncus nostra nulla aliquam dis cum accumsan. Mauris fringilla porta ut leo quam natoque gravida suspendisse sem hymenaeos luctus Facilisi luctus.",
+      "like": 0,
+      "disklike": 0,
+      "comments": 0,
+      "id": 1
+    },
+    {
+      "title": "Hello World",
+      "author": "N.Aimable",
+      "date": "2023-03-08",
+      "image": "none",
+      "description": "Getting ourselves on Hello World Project.",
+      "article": "Risus curae; Tortor cum. Venenatis.\n\nLigula potenti Potenti consequat urna aptent. Luctus.\n\nQuam nec interdum sollicitudin facilisi auctor.\n\nSapien pulvinar ante rhoncus.\n\nBibendum. Montes sit iaculis.\n\nPotenti sit nostra fusce varius.\n\nMetus leo pulvinar bibendum tincidunt mus tellus non nibh.\n\nAugue Neque proin.\n\nVel. Porta varius, curae; quam interdum.\n\nMagnis gravida porttitor, faucibus nulla.\n\nUltricies amet mattis nisi eleifend enim.",
+      "like": 0,
+      "disklike": 0,
+      "comments": 0,
+      "id": 2
+    },
+    {
+      "title": "New Technologies",
+      "author": "N.Aimable",
+      "date": "2023-03-21",
+      "image": "none",
+      "description": "It's all anout technlogy",
+      "article": "Senectus erat, felis ad nulla bibendum imperdiet nisi. Sed imperdiet sociosqu praesent Venenatis inceptos nostra ullamcorper risus, mus nibh etiam. Porttitor senectus habitant metus rutrum justo quam faucibus. Curabitur sem augue elementum turpis. Hymenaeos dis nonummy sem sit. Mollis.\n\nLibero facilisis porttitor venenatis praesent facilisi, sollicitudin accumsan congue posuere Sem fusce quis, proin litora accumsan. Dignissim Malesuada aptent taciti cras. Montes.\n\nCongue interdum ornare aptent molestie, malesuada dui facilisis pede Lobortis aptent, taciti, sem pharetra nulla lacus magnis vehicula vehicula, class mi cum magna fusce nullam natoque hac aliquet sociosqu est vitae commodo nascetur gravida. Diam vestibulum vehicula felis. Donec.",
+      "like": 0,
+      "disklike": 0,
+      "comments": 0,
+      "id": 3
+    },
+    {
+      "title": "Technology In Nowadays",
+      "author": "N.Aimable",
+      "date": "2023-03-06",
+      "image": "none",
+      "description": "jhjkhjkjhdj",
+      "article": "Venenatis blandit nibh ridiculus morbi inceptos magnis nullam habitasse est at lobortis elementum integer. Vestibulum iaculis dictumst habitant placerat. Vestibulum pretium est iaculis leo tristique scelerisque ut congue.\n\nMauris class porta. Ullamcorper a urna porta vestibulum praesent ridiculus Pretium est tristique. Lobortis ultrices dis. Bibendum vestibulum netus class Torquent. Odio, vitae.\n\nCum. Adipiscing ligula pellentesque eu. Feugiat risus phasellus molestie malesuada etiam. Id arcu ac aliquet sagittis sit quis. Elementum duis. Lorem semper tempus consequat libero arcu feugiat fames donec senectus metus auctor malesuada ullamcorper convallis elit nec erat nec. Sociosqu maecenas commodo condimentum mollis penatibus nulla Sagittis gravida ornare.",
+      "like": 0,
+      "disklike": 0,
+      "comments": 0,
+      "id": 4
+    }
+  ],
+  "Contacts": [
+    {
+      "Fullnames": "Nkurikiyimana Aimable",
+      "Email": "nkurikiyimanaaimable217@gmail.com",
+      "Message": "Welcome to the system.",
+      "Date": "none",
+      "Status": "Unseen",
+      "id": 1
+    },
+    {
+      "Fullnames": "Ndayizeye Kevin",
+      "Email": "ndayizeye234@gmai.com",
+      "Message": "I'm also available by now.",
+      "Date": "none",
+      "Status": "Unseen",
+      "id": 2
+    },
+    {
+      "Fullnames": "Irakarama Latifah",
+      "Email": "irakaramalatifah217@gmail.com",
+      "Messagttie": "It's your wife Buddy!",
+      "Date": "none",
+      "Status": "Unseen",
+      "id": 3
+    },
+    {
+      "Fullnames": "Mugisha Gashugi",
+      "Email": "gashhugi23@gmail.com",
+      "Message": "You can conatct me for a great deal",
+      "Date": "none",
+      "Status": "Unseen",
+      "id": 4
+    },
+    {
+      "Fullnames": "Ngiruwonsaga Emmy",
+      "Email": "emmy@gmail.com",
+      "Message": "sdnjknjksdhbhbhbhkasd",
+      "Date": "none",
+      "Status": "Unseen",
+      "id": 5
+    },
+    {
+      "Fullnames": "Rugero Emmanuel",
+      "Email": "rugero@gmail.com",
+      "Message": "Hello, can we talk?",
+      "Date": "none",
+      "Status": "Unseen",
+      "id": 6
+    },
+    {
+      "Fullnames": "Jeado",
+      "Email": "jeado@gmail.com",
+      "Message": "Twahuza gute nkaguha ikiraka?",
+      "Date": "none",
+      "Status": "Unseen",
+      "id": 7
+    },
+    {
+      "Fullnames": "admin",
+      "Email": "admin@gmail.com",
+      "Message": "This is your Admin.",
+      "Date": "none",
+      "Status": "Unseen",
+      "id": 8
+    },
+    {
+      "Fullnames": "Kevin Ndayizeye",
+      "Email": "kevin@gmail.com",
+      "Message": "Can I have a Contact with you?",
+      "Date": "none",
+      "Status": "Unseen",
+      "id": 9
+    },
+    {
+      "Fullnames": "Micheal Raymond",
+      "Email": "michealraymond217@gmail.com",
+      "Message": "Here is comes the message",
+      "Date": "none",
+      "Status": "Unseen",
+      "id": 10
+    }
+  ]
+}

@@ -30,27 +30,6 @@ text-transform: uppercase;
 color: #000000;
 }
 p{
-    position: absolute;
-    top: 84%;
-    left: 39%;
-}
-button{
-    position: absolute;
-    left: 12%;
-    cursor: pointer;
-    border: none;
-    color: white;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 8px 16px;
-gap: 8px;
-
-width: 216px;
-height: 51px;
-background: #F77110;
-border-radius: 8px;
 }
 .info{
     margin-top: 30px;
@@ -76,11 +55,79 @@ text-transform: uppercase;
 
 color: #F94E05;
 }
-form{
-    margin-top: 5%;
-    width: 60%;
-    position: absolute;
-    left: 30%;
+h3{
+  text-align: center;
+}
+.designer-footer{
+  text-align: center;
+}
+.form-sections{
+  margin: 150px;
+  width: 89%;
+  background-color: #000000;
+}
+.form-sections .btn-sect{
+  width: 100%;
+  float: left;
+}
+.page-title{
+  width: 30%;
+  position: relative;
+  left: 100px;
+  top: 90px;
+  color: orangered;
+}
+.form-sections .btn-sect button{
+  margin-top: 60px;
+  margin-left: 450px;
+}
+.line-article{
+  position: absolute;
+  left: 810px;
+  width: 100px;
+  height: 4px;
+  background-color: orangered;
+}
+.bottom-line{
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+  height: 3px;
+  background-color: orangered;
+}
+.section-b textarea{
+  width: 80%;
+}
+.section-a input{
+  width: 80%;
+}
+.section-b input{
+  width: 80%;
+}
+.section-a span, .section-b span{
+  position: relative;
+  right: 30px;
+}
+.form-sections button{
+margin-bottom: 40px;
+margin-top: 40px;
+justify-content: center;
+cursor: pointer;
+border: none;
+color: white;
+gap: 8px;
+width: 120px;
+height: 41px;
+background: #F77110;
+border-radius: 8px;
+}
+.section-a{
+  width: 50%;
+  float: left;
+}
+.section-b{
+  width: 50%;
+  float: right;
 }
 .informationl{
   width: 80%;
@@ -199,14 +246,6 @@ border-radius: 180px;
     border: none;
     border-bottom: 1px solid orangered;
 }
-.page-title{
-    position: absolute;
-    left: 350px;
-    top: 100px;
-}
-.page-title i{
-    color: #F94E05;
-}
 .profile-user{
     position: absolute;
     left: 1100px;
@@ -296,8 +335,10 @@ text-align: center;
   color: white;
 }
 .dash-btn button{
-    margin-top: 20px;
-    margin-left:52px;
+border: none;
+color: white;
+margin-top: 20px;
+margin-left: 100px;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -453,26 +494,7 @@ border-radius: 4px;
   
 }
 .manage-page-form1{
-  width: 900px;
-  position: absolute;
-  top: 280px;
-  left: 200px;
-}
-.section-B{
-  width: 100%;
-  position: absolute;
-  left: 500px;
-  top: 0px;
-}
-.manage-body2 .dashboard-footer .footer-line{
-  position: absolute;
-  top: 750px;
-  left: 300px;
-}
-.manage-body2 .dashboard-footer .copyright{
-  position: absolute;
-  top: 758px;
-  left: 300px;
+  background-color: #000000;
 }
 .manage-page-form1 button{
   margin-top: 60px;
@@ -664,10 +686,141 @@ textarea{
   margin: 0;
 }
 .my-mails{
-  width: 90%;
-  position: relative;
-  left: 100px;
+  margin-left: 100px;
 
+}
+.message{
+  margin-top: 30px;
+  color: red;
+  text-align: center;
+}
+.message1{
+  margin-top: 0px;
+  color: rgb(0, 128, 255);
+  text-align: center;
+}
+.update-icon{
+  color: #0065e0;
+}
+.delete-icon{
+  color: red;
+}
+.delete a{
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: red;
+}
+.delete a:hover{
+  color: black;
+}
+.update a{
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #147eff;
+}
+.update a:hover{
+  color: black;
+}
+
+
+
+.modal2 * {box-sizing: border-box}
+
+/* Set a style for all buttons */
+.modal2 button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.modal2 button:hover {
+  opacity:1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.modal2 .cancelbtn, .modal2 .deletebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.modal2 .cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.modal2 .deletebtn {
+  background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.modal2 .container {
+  padding: 16px;
+  padding-top: 10%;
+  height: 40%;
+  text-align: center;
+}
+
+/* The Modal (background) */
+ .modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 50px;
+}
+.modal2 span{
+  color: orangered;
+}
+
+/* Modal Content/Box */
+.modal2 .modal-content {
+  background-color: #fefefe;
+  margin: 15% auto 35% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Modal Close Button (x) */
+.modal2 .close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: orangered;
+}
+
+.modal2 .close:hover,
+.modal2 .close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.modal2 .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .modal2 .cancelbtn, .modal2 .deletebtn {
+    width: 100%;
+  }
 }
 
 
@@ -678,23 +831,13 @@ textarea{
 
 
 
-
-
-  
+ 
   /* Add Animation */
   @keyframes animatetop {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
   }
-
-
-
-
-
-
-
-
-  
+ 
   @media screen and (max-width: 700px) {
     .sidebar {
       width: 100%;

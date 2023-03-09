@@ -19,7 +19,7 @@
         <div class="user-pic"></div>
         <div class="admin">Administrator</div>
         <a href="home.html"><i class="fa-sharp fa-solid fa-house"></i> dashboard</a>
-        <a class="active"  href="page-manager.html"><i class="fa-solid fa-list-check"></i>Page Manage</a>
+        <a class="active" href="page-manager.html"><i class="fa-solid fa-list-check"></i>Article Manage</a>
         <a href="article.html"><i class="fa-solid fa-file-circle-plus"></i>Article</a>
         <a href="email.html"><i class="fa-sharp fa-solid fa-envelope"></i>Emails <span class="mail-badge">New</span></a>
         <a href="users.html"><i class="fa-sharp fa-solid fa-users"></i>Users</a>
@@ -33,7 +33,7 @@
           
               <div class="profile-user">
                   <div class="user1">
-                      <a href="#"><span><i class="fa-sharp fa-solid fa-user-tie"></i></span>
+                      <a href=""><span><i class="fa-sharp fa-solid fa-user-tie"></i></span>
                       Profile</a>
                   </div>
                   <div class="notification">
@@ -46,51 +46,70 @@
                   </div>
               </div>
           </div>
-          <div class="manage-body">
-            <div class="management-title"><h3>Page Management</h3></div>
-            <div class="manage-page-form">
-                <form action="" action="">
-                    <div class="page-name">
-                        <label for="">Web Pages</label><br>
-                        <select name="" id="">
-                            <option value="">None</option>
-                            <option value="">Home Page</option>
-                            <option value="">About Me</option>
-                            <option value="">Skills</option>
-                            <option value="">Portifolio</option>
-                            <option value="">Blogs</option>
-                            <option value="">Contact Me</option>
-                        </select>
-                    </div>
-                    <div class="page-title2"><br>
-                        <label for="">Page Title</label><br>
-                        <input type="text" name="" id="" placeholder="Title">
-                    </div>
-                    <div class="page-color">
-                        <label for="">Body Color</label><br>
-                        <select name="" id="">
-                            <option value="">None</option>
-                            <option value="">Dark</option>
-                            <option value="">White Orange</option>
-                            <option value="">Dark Blue</option>
-                            <option value="">Sky Blue</option>
-                        </select>
-                    </div>
-                    <div class="submit-manage">
-                        <button>Apply Changes</button>
-                    </div>
-                </form>
+            <div class="my-mails">
+<div class="card">
+    <div class="table-title">
+      <h2>ARTICLE MANAGEMENT</h2>
+    </div>
+    <div class="table-concept">
+      <input class="table-radio" type="radio" name="table_radio" id="table_radio_0" checked="checked"/>
+      <div class="table-display">Showing 1 of 2
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th><input type="checkbox"></th>
+            <th>No</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Description</th>
+            <th>Likes</th>
+            <th>Dislikes</th>
+            <th>Comments</th>
+            <th colspan="2">Action </th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+        </tbody>
+      </table>
+      <div id="id02" class="modal2">
+        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <form class="modal-content" method="POST" action="">
+            <div class="container">
+            <h1>Delete Article</h1>
+            <p class="sure"></p>
+
+            <div class="clearfix">
+                <button type="button" name="cancel" class="cancelbtn">Cancel</button>
+                <button type="button" name="del" class="deletebtn">Delete</button>
             </div>
-            <div class="dashboard-footer">
-                <div class="footer-line"></div>
-                <div class="copyright">
-                    All rights reserved &copy; Designed by Nkurikiyimana Aimable
-                </div>
             </div>
-          </div>
+        </form>
+    </div>
+      <div class="pagination">
+        <label class="disabled" for="table_radio_-1">&laquo; Previous</label>
+        <label class="active" for="table_radio_0" id="table_pager_0">1</label>
+        <label for="table_radio_1" id="table_pager_1">2</label>
+        <label for="table_radio_1">Next &raquo;</label>
+      </div>
+      <input class="table-radio" type="radio" name="table_radio" id="table_radio_1"/>
+      <div class="table-display">Showing 2 of 2
+      </div>
+      <div class="pagination">
+        <label for="table_radio_0">&laquo; Previous</label>
+        <label for="table_radio_0" id="table_pager_0">1</label>
+        <label class="active" for="table_radio_1" id="table_pager_1">2</label>
+        <label for="table_radio_2">Next &raquo;</label>
+      </div>
+      
+    </div>
+  </div>
+  </div>
+        
       </div>
            
    </body>
    <script src="js/main.js"></script>
+   <script src="js/article-manager.js"></script>
    <script src="https://kit.fontawesome.com/0c3ec67746.js" crossorigin="anonymous"></script>          
 </html>
